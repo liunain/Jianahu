@@ -61,7 +61,7 @@ export const NavSearch = styled.input.attrs({
     &::placeholder {
         color: #999;
     }
-    &.focused {
+    &.focused {                                                                     //本身的classname
         width:240px;
     }
     &.slide-enter {
@@ -86,7 +86,7 @@ export const Addition = styled.div`
 export const SearchWrapper = styled.div`
     position: relative;
     float: left;   //使之宽度合适；
-    .zoom {
+    .zoom {                                                                    //子元素的classname
         position: absolute;
         right: 5px;
         bottom: 5px;
